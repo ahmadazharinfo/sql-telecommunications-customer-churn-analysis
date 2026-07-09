@@ -52,7 +52,7 @@ sql-telecommunications-customer-churn-analysis/
 1. Create a local folder (e.g. `C:\telco_data\`) and place the 4 CSVs from `/data` in it.
 2. Run `scripts/01_create_database_and_schema.sql` to create the database, schema, and tables.
 3. Update the file paths in `scripts/02_load_data.sql` to match your folder, then run it. It loads all 4 tables and verifies row counts.
-4. Run `sscripts/03_churn_revenue_analysis.sql` section by section. It's organized into 6 parts: churn overview, revenue analysis, segmentation, service/add-on impact, tenure cohorts, and a rule-based risk score for active customers.
+4. Run `scripts/03_churn_revenue_analysis.sql` section by section. It's organized into 6 parts: churn overview, revenue analysis, segmentation, service/add-on impact, tenure cohorts, and a rule-based risk score for active customers.
 
 ## Key findings
 
