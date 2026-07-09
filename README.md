@@ -1,4 +1,4 @@
-# Telco Customer Churn: SQL Analysis
+# Telecommunications Customer Churn: SQL Analysis
 
 A SQL-only analysis of customer churn and revenue risk for a telecom provider, built on a normalized relational schema derived from the IBM Telco Customer Churn dataset.
 
@@ -26,7 +26,7 @@ See `docs/data_catalog.md` for full column definitions and `docs/schema_notes.md
 ## Project structure
 
 ```
-telco-churn-sql-analysis/
+sql-telecommunications-customer-churn-analysis/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
