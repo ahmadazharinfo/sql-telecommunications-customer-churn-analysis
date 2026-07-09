@@ -29,7 +29,6 @@ See `docs/data_catalog.md` for full column definitions and `docs/schema_notes.md
 sql-telecommunications-customer-churn-analysis/
 ├── README.md
 ├── LICENSE
-├── .gitignore
 ├── data/
 │   ├── customers.csv
 │   ├── phone_services.csv
