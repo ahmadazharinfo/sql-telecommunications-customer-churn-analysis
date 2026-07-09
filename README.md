@@ -26,9 +26,25 @@ See `docs/data_catalog.md` for full column definitions and `docs/schema_notes.md
 ## Project structure
 
 ```
-data/    raw and split CSV files, plus data source notes
-sql/     DDL, data load, and analysis scripts, run in numeric order
-docs/    business brief, data catalog, schema notes, findings
+telco-churn-sql-analysis/
+├── README.md
+├── LICENSE
+├── .gitignore
+├── data/
+│   ├── customers.csv
+│   ├── phone_services.csv
+│   ├── internet_services.csv
+│   ├── accounts.csv
+│   └── source.md
+├── sql/
+│   ├── 01_create_database_and_schema.sql
+│   ├── 02_load_data.sql
+│   └── 03_churn_revenue_analysis.sql
+└── docs/
+    ├── business_brief.md
+    ├── data_catalog.md
+    ├── schema_notes.md
+    └── findings.md
 ```
 
 ## How to run
